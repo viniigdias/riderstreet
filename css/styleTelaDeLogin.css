@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 0 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.img-tenis{
+    position: relative;
+    bottom: 64%;
+    left: 50%;
+}
+footer {
+    display: flex;
+    height: 60vh;
+    position: relative;
+    background-color: #1F1F1F;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+
+.div-first{
+    width: 30%;
+    margin-left: 100px;
+    margin-bottom: 13vw;
+    position: absolute;
+
+}
+
+
+.div-img{
+    display: flex;
+    margin-top: 72px;
+    margin-left: 32px;
+}
+
+.div-img img{
+    height: 100%;
+    margin-top: 6px;
+}
+
+.div-img h3{
+    font-weight: 600;
+    font-size: 32.4px;
+    line-height: 44.05px;
+    color: #fff;
+    margin-left: 8px;
+    font-family: 'Inter', sans-serif;
+} 
+
+.div-first p{
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    
+}
+
+.div-first i{
+    color: #fff;
+    padding-top: 40px;
+    padding-right: 35px;
+    font-size: 18px;
+}
+
+.div-first i:hover{
+    color: #C92071;
+}
+
+.div-first ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-sec{
+    display: flex;
+    margin-left: 800px;
+    margin-top: 72px;
+    flex-direction: column;
+}
+
+.div-sec h6{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.div-sec a{
+    font-weight: 400;
+    line-height: 38px;
+    color: #fff;
+    white-space: nowrap;
+    margin-left: -30px; /* Ajuste a margem esquerda conforme necessário */
+}
+
+
+.div-third{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 72px;
+    flex-direction: column;
+    width: 12%;
+}
+
+
+.div-third a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #fff;
+    margin-left: 0 /* Ajuste a margem esquerda conforme necessário */
+}
+
+.div-third h6{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.div-fourth {
+    width: 12%;
+    display: flex;
+    margin-right: 155px;
+    margin-top: 72px;
+    flex-direction: column;
+}
+
+.div-fourth a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #fff;
+    white-space: nowrap;
+    margin-left: -30px; /* Ajuste a margem esquerda conforme necessário */
+}
+
+
+.div-fourth h6{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.div-fifth{
+    position: absolute;
+    top: 88%;
+    width: 87%;
+    border-top: 1px solid #FFFFFF50;
+    margin: 0 100px;
+
+}
+
+.div-fifth h6{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff;
+    padding-top: 20px;
+    position: absolute;
+    left: 44%;
+}
+
+.col-md-6{
+    background-color: #Cecece;
+    background: linear-gradient(#1f1b1b80,#FFFFFF50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}

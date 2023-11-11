@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Pagamento</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styleTelaDePagamento.css">
+</head>
+<body>
+    <header class="p-4 mb-3">
+        <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 26px; ">
+                <img src="/imagens/Vector (7).png" alt="Logo" width="40" height="34" class="d-inline-block align-text-center">
+                RiderStreet
+            </a>
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mt-0 justify-content-center" style="text-decoration: none !important; margin-left: 80px;">
+            <li  class="px-3"><a class="nav-li active" href="#">Home</a></li>
+            <li class="px-3"><a class="nav-li" href="#">Produtos</a></li>
+            <li class="px-3"><a class="nav-li" href="#">Categorias</a></li>
+            <li class="px-3"><a  class="nav-li"href="#">Meus Pedidos</a></li>
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control" placeholder="Pesquisar..." aria-label="Search">
+        </form>
+        <div class="dropdown text-end">
+            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                <li><a class="dropdown-item" href="#">Novo Projeto...</a></li>
+                <li><a class="dropdown-item" href="#">Configurações</a></li>
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+    <section style="background-color: #F9F8FE;">
+    <section class="section py-5">
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Nome</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Ex: Vinicius">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleInputEmail1">Sobrenome</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Ex: Dias">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">CPF</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Celular</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">CEP</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Endereço</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <label for="exampleInputEmail1">Número</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Bairro</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-sm-12">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row justify-content-md-center mb-3">
+                                <div class="col-md-auto">
+                                    <button id="btnPix" class="btn btn-outline-secondary" type="button"><i
+                                            class="fa fa-money" aria-hidden="true"></i> PIX</button>
+                                    <button id="btnCredito" class="btn btn-outline-secondary" type="button"><i
+                                            class="fa fa-credit-card" aria-hidden="true"></i> Cartão de Crédito</button>
+                                </div>
+                            </div>
+                            <section id="panelPix" class="panel" hidden>
+                                <div class="row justify-content-md-center">
+                                    <div class="col-md-auto">
+                                        <img id="imgPix" src="imagens/QRCode.png"
+                                            alt="00020126450014BR.GOV.BCB.PIX0123medeirosraif1@gmail.com52040000530398654045.005802BR5920Raif Otavio Medeiros6009Fortaleza62070503***6304A34A">
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="panelCredito" class="panel" hidden>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div id="card">
+                                            <div id="card-front">
+                                                <div id="chip"></div>
+                                                <div id="card-number" class="animated-number">
+                                                    <span>4</span><span>5</span><span>6</span><span>7</span>
+                                                    <span>8</span><span>9</span><span>0</span><span>1</span>
+                                                    <span>2</span><span>3</span><span>4</span><span>5</span>
+                                                </div>
+                                                <div id="card-info">
+                                                    <div id="card-holder">
+                                                        <label>Titular do Cartão</label>
+                                                        <div id="holder-name">Seu Nome</div>
+                                                    </div>
+                                                    <div id="card-expiry">
+                                                        <label>Expiração</label>
+                                                        <div id="expiry-date">
+                                                            <span>MM</span> / <span>AA</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-2">
+                                            <label for="numeroCartao">Número do cartão</label>
+                                            <input type="text" class="form-control" id="numeroCartao"
+                                                placeholder="Número do cartão">
+                                        </div>
+                                        <div class="form-group mb-2">
+                                            <label for="nomeTitular">Titular do cartão</label>
+                                            <input type="text" class="form-control" id="nomeTitular"
+                                                placeholder="Nome do titular">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="dataVencimento">Expiração</label>
+                                            <input type="date" class="form-control" id="dataVencimento">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-5">
+                            <div class="card" style="width: 30rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-4">Pedido</h5>
+                                    <div class="row mb-2">
+                                        <div class="col-9">
+                                            <label>
+                                                Prancha epox 5’11 27L 19 1/4
+                                            </label>
+                                        </div>
+                                        <div class="col-3">
+                                            <label>
+                                                R$ XX,XX
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-9">
+                                            <label>
+                                                Short
+                                            </label>
+                                        </div>
+                                        <div class="col-3">
+                                            <label>
+                                                R$ XX,XX
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1">
+                                        <div class="col-9">
+                                            <label>
+                                                Camisa
+                                            </label>
+                                        </div>
+                                        <div class="col-3">
+                                            <label>
+                                                R$ XX,XX
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1">
+                                        <div class="col-sm-12">
+                                            <hr />
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-9">
+                                            <label><b>Total:</b></label>
+                                        </div>
+                                        <div class="col-3">
+                                            <label><b>R$ XX,XX</b></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <button type="button" id="btnFinalizarPedido"
+                                                class="btn btn-outline-cp me-2">Finalizar Pedido</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </section>
+    <footer class="mt-5">
+            <div class="div-first">
+                <div class="div-img">
+                    <img src="/imagens/logo.png" alt="">
+                    <h3>RiderStreet</h3>
+                </div>
+                <ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus iure at modi veniam doloribus,
+                        voluptate esse? Doloribus, cupiditate, laudantium excepturi commodi odio, possimus eius qui
+                        veritatis nam cumque omnis ipsum!</p>
+                    <li>
+                        <a href="#!">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="div-sec">
+                <h6>Informação</h6>
+                <ul>
+                    <li><a href="#!">Sobre Drip Store</a></li>
+                    <li><a href="#!">Segurança</a></li>
+                    <li><a href="#!">Wishlist</a></li>
+                    <li><a href="#!">Blog</a></li>
+                    <li><a href="#!">Trabalhe conosco</a></li>
+                    <li><a href="#!">Meus pedidos</a></li>
+                </ul>
+            </div>
+            <div class="div-third">
+                <h6>Categorias</h6>
+                <ul>
+                    <li><a href="#!">Camisetas</a></li>
+                    <li><a href="#!">Calças</a></li>
+                    <li><a href="#!">Bonés</a></li>
+                    <li><a href="#!">Headphones</a></li>
+                    <li><a href="#!">Tênis</a></li>
+                </ul>
+            </div>
+            <div class="div-fourth">
+                <h6>Contato</h6>
+                <ul>
+                    <li><a href="#!">Av. Santos Dumont, 1510</a></li>
+                    <li><a href="#!">1 andar - Aldeota, Fortaleza - CE</a></li>
+                    <li><a href="#!"> 60150-161</a></li>
+                </ul>
+            </div>
+            <div class="div-fifth">
+                <h6>&copy; 2023 RiderStreet</h6>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

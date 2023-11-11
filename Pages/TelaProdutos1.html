@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela De Produtos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styleProdutos1-2-3.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-body-tertiary h-100 w-100" style="background-color: #fff !important;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 26px; ">
+                    <img src="/imagens/Vector (7).png" alt="Logo" width="40" height="34" class="d-inline-block align-text-center">
+                    RiderStreet
+                </a>
+                <div class="col-md-4 col-4">
+                    <form class="search-form">
+                        <div class="input-group">
+                            <input type="text" class="form-control rounded-3" placeholder="Pesquisar Produto..."
+                                style="margin-left: 100px; margin-right: auto;">
+                            <button type="submit" class="btn btn-outline-secondary btnsearch"><i
+                                    class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <li class="especifica">Cadastre-se</li>
+                    <button type="button" class="btn btn-outline-secondary button" style="margin-right: 25px;">Entrar</button>
+                    <button type="button" class="btn btn-outline-secondary button2"><i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-12 header-sec">
+                <nav class="mt-5">
+                    <ul class="list-unstyled position-relative d-flex justify-content-center    ">
+                        <li  class="px-3"><a class="nav-li active" href="TelaDeInicio.html">Home</a></li>
+                        <li class="px-3"><a class="nav-li" href="TelaDeProdutos.html">Produtos</a></li>
+                        <li class="px-3"><a class="nav-li" href="#">Categorias</a></li>
+                        <li class="px-3"><a  class="nav-li"href="#">Meus Pedidos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="filtro-box" style="background-color: #fff; margin-top: 27px; padding: 5px 20px; border: 1px solid rgba(0, 0, 0, 0.175);">
+                        <div class="filtrar-por position-relative d-flex justify-content-center" style="font-weight: bold">Filtrar por:</div>
+                        <strong>Marca</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="marcaCheckbox">
+                            <label class="form-check-label" for="marcaCheckbox">
+                                Nike
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="categoriaCheckbox">
+                            <label class="form-check-label" for="categoriaCheckbox">
+                                Adidas
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="generoCheckbox">
+                            <label class="form-check-label" for="generoCheckbox">
+                                Gucci
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="estadoCheckbox">
+                            <label class="form-check-label" for="estadoCheckbox">
+                                Puma
+                            </label>
+                        </div>
+
+                        <strong>Categoria</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="marcaCheckbox">
+                            <label class="form-check-label" for="marcaCheckbox">
+                                Esporte e Lazer
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="categoriaCheckbox">
+                            <label class="form-check-label" for="categoriaCheckbox">
+                                Casual
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="generoCheckbox">
+                            <label class="form-check-label" for="generoCheckbox">
+                                Utilitário
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="estadoCheckbox">
+                            <label class="form-check-label" for="estadoCheckbox">
+                                Corrida
+                            </label>
+                        </div>
+                        <strong>Gênero</strong>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="marcaCheckbox">
+                            <label class="form-check-label" for="marcaCheckbox">
+                                Masculino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="categoriaCheckbox">
+                            <label class="form-check-label" for="categoriaCheckbox">
+                                Feminino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="generoCheckbox">
+                            <label class="form-check-label" for="generoCheckbox">
+                                Unisex
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9 mt-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-3">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4  mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4  mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4  mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4  mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4  mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4  mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4  mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class="btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4  mt-4">
+                            <div class="card">
+                                <img src="/imagens/Layer 1aa 2.png" class="card-img-top" alt="Nome do Produto">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto</h5>
+                                    <p class="card-text">Descrição do produto.</p>
+                                    <p class="card-text">Preço: R$ 100,00</p>
+                                    <a href="#" class=" btn btncard btn-primary">Ver Detalhes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mt-4" aria-label="Page navigation example0">
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item disabled">
+                                    <a class="page-link">Previa</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#" style="color: black;">1</a></li>
+                                <li class="page-item"><a class="page-link" href="TelaDeProdutos2.html"style="color: black;">2</a></li>
+                                <li class="page-item"><a class="page-link" href="TelaDeProdutos3.html"style="color: black;">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" style="color: black;">Proximo</a>
+                                </li>
+                            </ul>
+                        </nav>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

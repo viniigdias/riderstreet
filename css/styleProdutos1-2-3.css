@@ -1,0 +1,2392 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F8FE;
+}
+header{
+    width: 100vw;
+    height: 8vw;
+    padding: 10px 100px;
+    background-color: #fff;
+}
+
+.admin-sign {
+    margin-right: 20px;
+}
+.nav-link.active {
+    color: black;
+    text-decoration: underline;
+}
+.container {
+    margin-bottom: 10px; 
+}
+.xl-container{
+    position: absolute;
+    margin-top: 9%;
+}
+.nav-li{
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 2px;
+    transition: padding-bottom 0.3s;
+    transition-duration: 200ms;
+}
+
+.nav-li:hover{
+    color: #000000;
+    padding-bottom: 2px;
+}
+
+.nav-li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.4s, left 0.4s;
+    transform: translateX(-50%);
+}
+
+.nav-li:hover::after {
+    width: 100%;
+    left: 50%;
+}
+
+.active{
+    color: #000000;
+    font-weight: bold;
+}
+
+.especifica{
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 25px;
+    border-bottom: 1px solid #47474780;
+    cursor: pointer;
+}
+
+.button{
+    color: #fff !important;
+    background-color: #000000 !important;
+    border: none !important;
+    width: 100px;
+    height: 40px;
+}
+
+.button2{
+    color: #000000 !important;
+    background-color: none;
+    border: none;
+    --bs-btn-hover-bg: none;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 2px;
+    transition: padding-bottom 0.3s;
+    transition-duration: 200ms;
+}
+
+
+.button2:hover{
+    color: #C92071;
+    padding-bottom: 0;
+}
+
+.button2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.4s, left 0.4s;
+    transform: translateX(-50%);
+    
+}
+
+.button2:hover::after {
+    width: 80%;
+    left: 50%;
+}
+
+.btnsearch{
+    color: #000;
+    border: none;
+}
+
+.btnsearch:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #000;
+}
+
+.buttonfi{
+    color: #fff !important;
+    background-color: #000000 !important;
+    border: none !important;
+    width: 160px;
+    height: 40px;
+}
+
+.container {
+    max-width: 90%;
+}
+.divider {
+    text-align: center;
+    margin-top: 1rem;
+}
+.divider hr {
+    border: 1px solid #ccc;
+    margin: 0;
+}
+.divider span {
+    background-color: #a7a7a7;
+    padding: 0 10px;
+    position: relative;
+    top: -12px;
+    font-weight: bold;
+}
+
+.Group1{
+    width: 332px; height: 60px; left: 1008px; top: 232px; position: absolute
+}
+.Rectangle1{
+    width: 332px; height: 60px; left: 0px; top: 0px; position: absolute; background: #F9F8FE; border-radius: 4px; border: 1px #474747 solid
+}
+.OrdernarPorMaisRelevantes{
+    width: 251px; left: 15px; top: 16px; position: absolute
+}
+.span1{
+    color: #474747; font-size: 16px; font-family: Inter; font-weight: 700; line-height: 28px; letter-spacing: 0.75px; word-wrap: break-word
+}
+.span2{
+    color: #474747; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 28px; letter-spacing: 0.75px; word-wrap: break-word
+}
+.custom-group {
+    left: 100px;
+    top: 248px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.custom-result {
+    left: 0px;
+    top: 2px;
+    position: absolute;
+    color: #474747;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    white-space: nowrap;
+    display: inline;
+}
+
+.custom-products {
+    left: 227px;
+    top: 0px;
+    position: absolute;
+    color: #474747;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.75px;
+    white-space: nowrap;
+    display: inline;
+}
+
+.custom-hyphen {
+    left: 211px;
+    top: 2px;
+    position: absolute;
+    color: #474747;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Group3 {
+    width: 904px;
+    height: 918px;
+    left: 436px;
+    top: 332px;
+    position: absolute;
+}
+
+.Group4 {
+    width: 292px;
+    height: 439px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px; height: 134px; left: -10px; top: 163px; position: absolute; transform: rotate(-30deg); transform-origin: 0 0; box-shadow: -3.61397647857666px 4.517470836639404px 6.518518447875977px rgba(0, 0, 0, 0.03);
+}
+
+.Frame9 {
+    width: 96px;
+    height: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    background: #E7FF86;
+    border-radius: 29px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.Off {
+    color: #474747; font-size: 14px; font-family: Inter; font-weight: 700; line-height: 22px; letter-spacing: 0.75px; word-wrap: break-word
+}
+
+.TNis {
+    left: 0px; top: 339px; position: absolute; color: #8F8F8F; font-size: 12px; font-family: Inter; font-weight: 700; line-height: 24px; letter-spacing: 0.75px; word-wrap: break-word
+}
+
+.KSwissV8Masculino {
+    left: 0px; top: 363px; position: absolute; color: #474747; font-size: 24px; font-family: Inter; font-weight: 400; line-height: 38px; letter-spacing: 0.75px; word-wrap: break-word
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px; height: 38px; left: 0px; top: 0px; position: absolute
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.V100{
+    left: 77px; top: 0px; position: absolute; color: #1F1F1F; font-size: 24px; font-family: Inter; font-weight: 700; line-height: 38px; letter-spacing: 0.75px; word-wrap: break-word
+}
+.V200{
+    left: 3px; top: 0px; position: absolute; color: #8F8F8F; font-size: 24px; font-family: Inter; font-weight: 400; line-height: 38px; letter-spacing: 0.75px; word-wrap: break-word
+}
+
+.Line1 {
+    width: 69px; height: 0px; left: 0px; top: 21px; position: absolute; background: #8F8F8F; border: 1px #8F8F8F solid
+}
+
+.Group53597 {
+    width: 292px;
+    height: 439px;
+    left: 0px;
+    top: 479px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53595 {
+    width: 292px;
+    height: 439px;
+    left: 612px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53598 {
+    width: 292px;
+    height: 439px;
+    left: 612px;
+    top: 479px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53594 {
+    width: 292px;
+    height: 439px;
+    left: 306px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.Frame9 {
+    width: 96px;
+    height: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    background: #E7FF86;
+    border-radius: 29px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.Off {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53599 {
+    width: 292px;
+    height: 439px;
+    left: 306px;
+    top: 479px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53610 {
+    width: 904px;
+    height: 439px;
+    left: 436px;
+    top: 1285px;
+    position: absolute;
+}
+
+.Group53600 {
+    width: 292px;
+    height: 439px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53601 {
+    width: 292px;
+    height: 439px;
+    left: 612px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53602 {
+    width: 292px;
+    height: 439px;
+    left: 306px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53609 {
+    width: 904px;
+    height: 918px;
+    left: 436px;
+    top: 1764px;
+    position: absolute;
+}
+
+.Group53603 {
+    width: 292px;
+    height: 439px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20, .Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53604 {
+    width: 292px;
+    height: 439px;
+    left: 0px;
+    top: 479px;
+    position: absolute;
+}
+
+.Rectangle20,
+.Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+.Group53605 {
+    width: 292px;
+    height: 439px;
+    left: 612px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20,
+.Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53606 {
+    width: 292px;
+    height: 439px;
+    left: 612px;
+    top: 479px;
+    position: absolute;
+}
+
+.Rectangle20,
+.Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+.Group53607 {
+    width: 292px;
+    height: 439px;
+    left: 306px;
+    top: 0px;
+    position: absolute;
+}
+
+.Rectangle20,
+.Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+.Group53608 {
+    width: 292px;
+    height: 439px;
+    left: 306px;
+    top: 479px;
+    position: absolute;
+}
+
+.Rectangle20,
+.Rectangle21 {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.MaskGroup {
+    width: 292px;
+    height: 321px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Layer1aa2 {
+    width: 248px;
+    height: 134px;
+    left: -10px;
+    top: 163px;
+    position: absolute;
+    transform: rotate(-30deg);
+    transform-origin: 0 0;
+}
+
+.TNis {
+    left: 0px;
+    top: 339px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.KSwissV8Masculino {
+    left: 0px;
+    top: 363px;
+    position: absolute;
+    color: #474747;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group13 {
+    width: 140px;
+    height: 38px;
+    left: 0px;
+    top: 401px;
+    position: absolute;
+}
+
+.Price1 {
+    left: 77px;
+    top: 0px;
+    position: absolute;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Group7 {
+    width: 69px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.Price2 {
+    left: 3px;
+    top: 0px;
+    position: absolute;
+    color: #8F8F8F;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+.Line1 {
+    width: 69px;
+    height: 0px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: #8F8F8F;
+    border: 1px #8F8F8F solid;
+}
+
+/* styles.css */
+.Vector1 {
+    width: 11px; height: 6px; left: 1314px; top: 260px; position: absolute; border: 2px #474747 solid
+  }
+  
+  .Frame53631 {
+    padding: 30px; left: 100px; top: 332px; position: absolute; background: white; border-radius: 4px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex
+  }
+  
+  .FiltrarPor {
+    color: #474747; font-size: 16px; font-family: Inter; font-weight: 700; line-height: 24px; letter-spacing: 0.75px; word-wrap: break-word
+  }
+  
+.Vector2{
+    width: 248px; height: 0px; border: 1px #CCCCCC solid
+}
+.Frame53630{
+    flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex
+}
+.Marka{color: #474747; font-size: 14px; font-family: Inter; font-weight: 700; line-height: 22px; letter-spacing: 0.75px; word-wrap: break-word}
+.Frame53622{justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{width: 22px; height: 22px; position: relative}
+.Rectangle3764{width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: black; border-radius: 2px; border: 1px black solid}
+.Vector3{width: 13.50px; height: 9px; left: 4.50px; top: 6.50px; position: absolute; border: 2px white solid}
+.Adiddas{color: #474747; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 22px; letter-spacing: 0.25px; word-wrap: break-word}
+.Frame53623{justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{width: 22px; height: 22px; position: relative}
+.Rectangle3764{width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 2px; border: 1px #666666 solid}
+.Calenciaga{color: #474747; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 22px; letter-spacing: 0.25px; word-wrap: break-word}
+.Frame53624{justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{width: 22px; height: 22px; position: relative}
+.Rectangle3764{width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: black; border-radius: 2px; border: 1px black solid}
+.Vector3{width: 13.50px; height: 9px; left: 4.50px; top: 6.50px; position: absolute; border: 2px white solid}
+.KSwiss{color: #474747; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 22px; letter-spacing: 0.25px; word-wrap: break-word}
+.Frame53625{justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{width: 22px; height: 22px; position: relative}
+.Rectangle3764{width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 2px; border: 1px #666666 solid}
+.Nike{color: #474747; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 22px; letter-spacing: 0.25px; word-wrap: break-word}
+.Frame53626{ justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{ width: 22px; height: 22px; position: relative}
+.Rectangle3764{ width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 2px; border: 1px #666666 solid}
+.Puma{ color: #474747; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 22px; letter-spacing: 0.25px; word-wrap: break-word}
+.Frame53629{ flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex}
+.Categoria{ color: #474747; font-size: 14px; font-family: Inter; font-weight: 700; line-height: 22px; letter-spacing: 0.75px; word-wrap: break-word}
+.Frame53613{ justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{ width: 22px; height: 22px; position: relative}
+.Rectangle3764{ width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: black; border-radius: 2px; border: 1px black solid}
+.Vector3{ width: 13.50px; height: 9px; left: 4.50px; top: 6.50px; position: absolute; border: 2px white solid}
+.EsporteELazer{ color: #474747; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 22px; letter-spacing: 0.25px; word-wrap: break-word}
+.Frame53614{ justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{width: 22px; height: 22px; position: relative}
+.Rectangle3764{width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 2px; border: 1px #666666 solid}
+.Frame53628{justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{width: 22px; height: 22px; position: relative}
+.Casual{
+    color: #474747; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 22px; letter-spacing: 0.25px; word-wrap: break-word
+}
+.Frame53615{justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{width: 22px; height: 22px; position: relative}
+.Rectangle3764{width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 2px; border: 1px #666666 solid}
+.Frame53616{justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex}
+.Checkbox{width: 22px; height: 22px; position: relative}
+.Rectangle3764{width: 22px; height: 22px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 2px; border: 1px #666666 solid}
+.Frame53628{flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex}
+.Frame53619 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+/* Styles for Checkbox */
+.Checkbox {
+    width: 22px;
+    height: 22px;
+    position: relative;
+}
+
+/* Styles for Rectangle3764 */
+.Rectangle3764 {
+    width: 22px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: black;
+    border-radius: 2px;
+    border: 1px black solid;
+}
+
+/* Styles for Vector3 */
+.Vector3 {
+    width: 13.50px;
+    height: 9px;
+    left: 4.50px;
+    top: 6.50px;
+    position: absolute;
+    border: 2px white solid;
+}
+
+/* Styles for Masculino */
+.Masculino {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+}
+
+/* Styles for Frame53620 */
+.Frame53620 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+/* Styles for Feminino */
+.Feminino {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+}
+
+/* Styles for Frame53621 */
+.Frame53621 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+/* Styles for Unisex */
+.Unisex {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+}
+
+/* Styles for Frame53627 */
+.Frame53627 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+/* Styles for Estado */
+.Estado {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+}
+
+/* Styles for Frame53617 */
+.Frame53617 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+/* Styles for Radio */
+.Radio {
+    width: 22px;
+    height: 22px;
+    position: relative;
+}
+
+/* Styles for Ellipse17 */
+.Ellipse17 {
+    width: 22px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+    border: 1px black solid;
+}
+
+/* Styles for Ellipse18 */
+.Ellipse18 {
+    width: 14px;
+    height: 14px;
+    left: 4px;
+    top: 4px;
+    position: absolute;
+    background: black;
+    border-radius: 9999px;
+}
+
+/* Styles for Novo */
+.Novo {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+}
+
+/* Styles for Frame53618 */
+.Frame53618 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+/* Styles for Usado */
+.Usado {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+}
+
+
+/* Styles for "Esporte e lazer" */
+.EsporteELazer {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Casual" */
+  .Casual {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Utilitário" */
+  .UtilitRio {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Corrida" */
+  .Corrida {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Gênero" */
+  .GNero {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Masculino" */
+  .Masculino {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Feminino" */
+  .Feminino {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Unisex" */
+  .Unisex {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Estado" */
+  .Estado {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Novo" */
+  .Novo {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+  
+  /* Styles for "Usado" */
+  .Usado {
+    color: #474747;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+  }
+
+.btncard{
+    color: #fff ;
+    background-color: #000 !important;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
